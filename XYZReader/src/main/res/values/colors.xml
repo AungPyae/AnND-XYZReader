@@ -24,4 +24,6 @@
 
     <color name="text_dark">#434343</color>
     <color name="article_title_detail_bg">#333333</color>
+
+    <color name="article_subtitle_text_color">#6000</color>
 </resources>

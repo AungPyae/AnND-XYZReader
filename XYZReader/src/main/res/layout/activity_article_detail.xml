@@ -19,8 +19,8 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
-            app:expandedTitleMarginEnd="64dp"
-            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="@dimen/detail_title_margin_start"
+            app:expandedTitleMarginStart="@dimen/detail_title_margin_end"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <com.example.xyzreader.ui.DynamicHeightImageView
@@ -89,8 +89,8 @@
 
             <ImageView
                 android:id="@+id/ib_font_size_decrease"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="@dimen/font_size_adjust_size"
+                android:layout_height="@dimen/font_size_adjust_size"
                 android:src="@drawable/font_size_decrease"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:layout_marginTop="8dp"
@@ -100,12 +100,12 @@
 
             <ImageView
                 android:id="@+id/ib_font_size_increase"
-                android:layout_width="33dp"
-                android:layout_height="33dp"
+                android:layout_width="@dimen/font_size_adjust_size_larger"
+                android:layout_height="@dimen/font_size_adjust_size_larger"
                 android:src="@drawable/font_size_increase"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:layout_toRightOf="@id/ib_font_size_decrease"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="@dimen/margin_small"
                 />
 
             <TextView

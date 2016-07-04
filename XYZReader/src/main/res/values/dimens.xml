@@ -28,4 +28,11 @@
     <dimen name="fab_margin_bottom">72dp</dimen>
     <dimen name="detail_backdrop_height">240dp</dimen>
 
+    <dimen name="app_bar_height_list_screen">112dp</dimen>
+
+    <dimen name="detail_title_margin_start">64dp</dimen>
+    <dimen name="detail_title_margin_end">48dp</dimen>
+    <dimen name="font_size_adjust_size">30dp</dimen>
+    <dimen name="font_size_adjust_size_larger">33dp</dimen>
+
 </resources>
